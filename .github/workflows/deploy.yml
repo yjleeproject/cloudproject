@@ -2,7 +2,7 @@ name: Node.js Package
 
 on:
   push:
-    branches: ['main'] # push시 배포할 branch명, 보통 main을 많이 쓰던데..
+    branches: ['master'] # push시 배포할 branch명, 보통 main을 많이 쓰던데..
 
 jobs:
   build-and-deploy:
